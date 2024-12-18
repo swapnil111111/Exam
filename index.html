@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+</head>
+<body>
+    <div>
+        <form action="submit">
+            <div><span>Name</span><input type="text" id="name" value=""/></div>
+            <div><span>Email</span><input type="email" id="email"/></div>
+            <div><span>Password</span><input type="password" id="password"/></div>
+            <div><span>City</span><input type="text" id="City"/></div>
+            <div><span>State</span><input type="text" id="State"/></div>
+            <div class="flex"><span>Hobies</span>
+                <input type="checkbox" value="Cricket"/>
+                <input type="checkbox" value="It"/>
+                <input type="checkbox" value="Movies"/>
+                <input type="checkbox" value="Song"/>
+            </div>
+
+        </form>
+     
+        <button type="submit" onclick="data()">Submit</button>
+    </div>
+
+    <script>
+        const name = document.getElementById('#name').innerText;
+        const email = document.getElementById('email').value
+        const password  = document.getElementById('passwword').value
+        const city = docuent.getElementById('city').value
+        
+     function data() {
+        console.log(name)
+     }
+      
+        
+    </script>
+</body>
+</html>
